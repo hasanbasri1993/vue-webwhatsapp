@@ -2,8 +2,8 @@
     <div id="app">
         <div class="appPraInside">
             <div tabindex="-1" class="app h70RQ two">
-                <SidePanel :listChats="listChats"></SidePanel>
-                <MainPanel></MainPanel>
+                <SidePanel :listChats="listChats" :activeChat="activeChat" @setActiveChat="setActiveChat"></SidePanel>
+                <MainPanel :activeChat="activeChat"></MainPanel>
             </div>
         </div>
     </div>
@@ -86,7 +86,7 @@
                     photo: 'https://picsum.photos/id/345/200/200',
                     lastChatT: '04:12',
                     lastChatM: 'lalala skksskjeje'
-                },{
+                }, {
                     chatID: 11,
                     name: 'Una5',
                     photo: 'https://picsum.photos/id/345/200/200',
@@ -128,11 +128,16 @@
                     lastChatT: '04:12',
                     lastChatM: 'lalala skksskjeje'
                 },
-            ]
+            ],
+            activeChat: ''
         }),
         components: {
             SidePanel,
             MainPanel
+        }, methods: {
+            setActiveChat: function (listChat) {
+                this.activeChat = listChat.chatID
+            }
         }
     }
 </script>

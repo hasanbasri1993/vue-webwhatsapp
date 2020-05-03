@@ -2,6 +2,7 @@ html, body {
     height: 100%;
     margin: 0;
     font-family: "Segoe UI", "Helvetica Neue", "Helvetica", "Lucida Grande", Arial, "Ubuntu", "Cantarell", "Fira Sans", sans-serif;
+    background: beige;
 }
 
 #app {
@@ -241,6 +242,9 @@ html, body {
 
 /*seacrh side contact*/
 
+._1f1zm {
+    background-color: #ebebeb !important;
+}
 
 .rRAIq {
     background-color: #f7f7f7;
@@ -257,6 +261,14 @@ html, body {
     z-index: 100;
 }
 
+button {
+    outline: none;
+    border: 0;
+    padding: 0;
+    background: none;
+    cursor: pointer;
+}
+
 .C28xL {
     left: 24px;
     height: 24px;
@@ -266,12 +278,57 @@ html, body {
     z-index: 100;
 }
 
-button {
-    outline: none;
-    border: 0;
-    padding: 0;
-    background: none;
-    cursor: pointer;
+.C28xL ._1BC4w {
+    transform: scale(1) rotate(360deg);
+}
+
+.C28xL ._1M3wR {
+    left: 0;
+}
+
+.C28xL ._1BC4w {
+    opacity: 1;
+    pointer-events: none;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.C28xL ._1M3wR {
+    top: 0;
+}
+
+._1BC4w {
+    color: #33b7f6;
+}
+
+._3sdhb .C28xL ._3M2St {
+    transform: rotate(135deg);
+}
+
+
+._3sdhb .C28xL ._3M2St {
+    opacity: 0;
+    transition: all 0.24s cubic-bezier(0.4, 0, 0.2, 1) 0.06s;
+}
+
+.C28xL ._3M2St {
+    transition: all 0.24s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+._3M2St {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+._3Burg {
+    right: 15px;
+}
+
+._3Burg {
+    color: rgba(0, 0, 0, 0.3);
+    top: 12px;
+}
+._1M3wR, ._3Burg, ._1lTg8, ._2xarx {
+    position: absolute;
+    z-index: 100;
 }
 
 ._1pCYj, ._2cLHw {
@@ -365,10 +422,11 @@ button {
 
 ._3F6QL._3xlwb ._2S1VP {
     font-size: 15px;
+    outline: none;
 }
 
 ._3F6QL ._2S1VP {
-    color: var(--primary);
+    color: #4a4a4a;
     font-size: 17px;
     line-height: 20px;
     min-height: 20px;
@@ -1313,4 +1371,127 @@ svg:not(:root) {
     flex: 0 0 auto;
     opacity: 0.9;
     color: #919191;
+}
+
+
+/* preload before active*/
+
+._2zynu {
+    border-left: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+._2zynu {
+    background-color: #f8f9fa;
+    cursor: default;
+    padding-bottom: 28px;
+    padding-top: 28px;
+}
+
+._2zynu {
+    align-items: center;
+    box-sizing: border-box;
+    flex-grow: 1;
+    justify-content: center;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+._2IVU3 {
+    text-align: center;
+    margin-top: -20px;
+}
+
+._2IVU3 {
+    max-width: 460px;
+    width: 80%;
+}
+
+._2LKlu {
+    margin: 0 auto;
+    transform-origin: center;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+[data-asset-intro-image] {
+    background-image: url('https://web.whatsapp.com/img/intro-connection_c98cc75f2aa905314d74375a975d2cf2.jpg');
+}
+
+._2LKlu {
+    width: 356px;
+    height: 355px;
+    opacity: 0;
+    transition: height 0.3s ease;
+    overflow: hidden;
+}
+
+.P8cO8 {
+    margin-top: 38px;
+}
+
+.P8cO8 {
+    color: #525252;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.dPZky {
+    margin-top: 24px;
+}
+
+.dPZky {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.45);
+    line-height: 20px;
+}
+
+._3McX8 {
+    margin-top: 34px;
+}
+
+._1TgXb {
+    margin-bottom: 34px;
+    background-color: rgba(0, 0, 0, 0.45);
+}
+
+._1TgXb {
+    height: 1px;
+}
+
+._2g-bt {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.45);
+    line-height: 20px;
+    display: inline-flex;
+    align-items: center;
+}
+
+._1XccF {
+    margin-top: 1px;
+}
+
+._1XccF {
+    color: #919191;
+}
+
+._23q2r {
+    margin-left: 5px;
+}
+
+._23q2r {
+    text-align: unset;
+}
+
+._2zynu a {
+    color: #07bc4c;
+}
+
+a {
+    text-decoration: none;
+    color: #039BE5;
 }
