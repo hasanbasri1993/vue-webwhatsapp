@@ -143,5 +143,6 @@
 </script>
 
 <style>
+    @import 'assets/css/var.css';
     @import 'assets/css/style.css';
 </style>

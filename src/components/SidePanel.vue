@@ -111,7 +111,7 @@
 
 <script>
 
-    import HeaderSidePanel from "@/components/HeaderSidePanel";
+    import HeaderSidePanel from "@/components/SidePanelHeader";
     import IconSearch from "@/components/Icon/IconSearch";
 
     export default {

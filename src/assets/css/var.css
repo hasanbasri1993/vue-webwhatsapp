@@ -1,0 +1,3013 @@
+
+
+:root {
+    --beige: #e5ddd5;
+    --beige-rgb: 229, 221, 213;
+    --black: #000;
+    --black-rgb: 0, 0, 0;
+    --blue: #039BE5;
+    --blue-rgb: 3, 155, 229;
+    --blue-light: #00A5F4;
+    --blue-light-rgb: 0, 165, 244;
+    --blue-ocean: #AADAFF;
+    --blue-ocean-rgb: 170, 218, 255;
+    --blue-sky: #9DE1FE;
+    --blue-sky-rgb: 157, 225, 254;
+    --dark: #263238;
+    --dark-rgb: 38, 50, 56;
+    --gray-30: #f7f7f7;
+    --gray-30-rgb: 247, 247, 247;
+    --gray-60: #f0f0f0;
+    --gray-60-rgb: 240, 240, 240;
+    --gray-70: #ededed;
+    --gray-70-rgb: 237, 237, 237;
+    --gray-100: #e6e6e6;
+    --gray-100-rgb: 230, 230, 230;
+    --gray-150: #d9d9d9;
+    --gray-150-rgb: 217, 217, 217;
+    --gray-200: #ccc;
+    --gray-200-rgb: 204, 204, 204;
+    --gray-300: #b3b3b3;
+    --gray-300-rgb: 179, 179, 179;
+    --gray-400: #999;
+    --gray-400-rgb: 153, 153, 153;
+    --gray-500: gray;
+    --gray-500-rgb: 128, 128, 128;
+    --gray-600: #666;
+    --gray-600-rgb: 102, 102, 102;
+    --gray-700: #4a4a4a;
+    --gray-700-rgb: 74, 74, 74;
+    --gray-800: #303030;
+    --gray-800-rgb: 48, 48, 48;
+    --gray-850: #262626;
+    --gray-850-rgb: 38, 38, 38;
+    --gray-900: #1a1a1a;
+    --gray-900-rgb: 26, 26, 26;
+    --green: #07BC4C;
+    --green-rgb: 7, 188, 76;
+    --green-deep: #1B9A59;
+    --green-deep-rgb: 27, 154, 89;
+    --orange: #FFAD20;
+    --orange-rgb: 255, 173, 32;
+    --pale-blue-green: #ECFAF5;
+    --pale-blue-green-rgb: 236, 250, 245;
+    --pale-green: #DCF8C6;
+    --pale-green-rgb: 220, 248, 198;
+    --pale-yellow: #FFF5C4;
+    --pale-yellow-rgb: 255, 245, 196;
+    --red: #D70000;
+    --red-rgb: 215, 0, 0;
+    --red-light: #F44336;
+    --red-light-rgb: 244, 67, 54;
+    --teal: #009688;
+    --teal-rgb: 0, 150, 136;
+    --teal-light: #1DE9B6;
+    --teal-light-rgb: 29, 233, 182;
+    --teal-lighter: #00BFA5;
+    --teal-lighter-rgb: 0, 191, 165;
+    --white: #fff;
+    --white-rgb: 255, 255, 255;
+    --yellow: #FED859;
+    --yellow-rgb: 254, 216, 89;
+    --active-tab-marker: #009688;
+    --active-tab-marker-rgb: 0, 150, 136;
+    --app-background-stripe: #009688;
+    --app-background-stripe-rgb: 0, 150, 136;
+    --audio-progress-incoming: #31c76a;
+    --audio-progress-incoming-rgb: 49, 199, 106;
+    --audio-progress-outgoing: #889a7b;
+    --audio-progress-outgoing-rgb: 136, 154, 123;
+    --audio-progress-played-incoming: #30b6f6;
+    --audio-progress-played-incoming-rgb: 48, 182, 246;
+    --audio-progress-played-outgoing: #2ab5eb;
+    --audio-progress-played-outgoing-rgb: 42, 181, 235;
+    --audio-track-incoming: #e6e6e6;
+    --audio-track-incoming-rgb: 230, 230, 230;
+    --audio-track-outgoing: #c6dfb2;
+    --audio-track-outgoing-rgb: 198, 223, 178;
+    --avatar-background: #e6e6e6;
+    --avatar-background-rgb: 230, 230, 230;
+    --avatar-border: #fff;
+    --avatar-border-rgb: 255, 255, 255;
+    --avatar-placeholder-background: #DFE5E7;
+    --avatar-placeholder-background-rgb: 223, 229, 231;
+    --avatar-placeholder-primary: #fff;
+    --avatar-placeholder-primary-rgb: 255, 255, 255;
+    --background-app: #e0e0e0;
+    --background-app-rgb: 224, 224, 224;
+    --background-default: #fff;
+    --background-default-rgb: 255, 255, 255;
+    --background-default-active: #ebebeb;
+    --background-default-active-rgb: 235, 235, 235;
+    --background-default-hover: #f5f5f5;
+    --background-default-hover-rgb: 245, 245, 245;
+    --border-bubble: rgba(0, 0, 0, 0.06);
+    --border-bubble-rgb: 0, 0, 0;
+    --border-default: #f0f0f0;
+    --border-default-rgb: 240, 240, 240;
+    --border-list: #f2f2f2;
+    --border-list-rgb: 242, 242, 242;
+    --border-panel: rgba(0, 0, 0, 0.05);
+    --border-panel-rgb: 0, 0, 0;
+    --border-strong: #d9d9d9;
+    --border-strong-rgb: 217, 217, 217;
+    --border-stronger: rgba(0, 0, 0, 0.08);
+    --border-stronger-rgb: 0, 0, 0;
+    --butterbar-battery-background: #fa685e;
+    --butterbar-battery-background-rgb: 249.69711, 103.94798, 93.50289;
+    --butterbar-battery-primary: #fff;
+    --butterbar-battery-primary-rgb: 255, 255, 255;
+    --butterbar-battery-secondary: #fff;
+    --butterbar-battery-secondary-rgb: 255, 255, 255;
+    --butterbar-connection-background: #FED859;
+    --butterbar-connection-background-rgb: 254, 216, 89;
+    --butterbar-default-background: #9DE1FE;
+    --butterbar-default-background-rgb: 157, 225, 254;
+    --butterbar-icon: rgba(255, 255, 255, 0.9);
+    --butterbar-icon-rgb: 255, 255, 255;
+    --butterbar-primary: rgba(48, 48, 48, 0.96);
+    --butterbar-primary-rgb: 48, 48, 48;
+    --butterbar-secondary: rgba(48, 48, 48, 0.85);
+    --butterbar-secondary-rgb: 48, 48, 48;
+    --butterbar-update-background: #1DE9B6;
+    --butterbar-update-background-rgb: 29, 233, 182;
+    --button-alternative: #00A5F4;
+    --button-alternative-rgb: 0, 165, 244;
+    --button-alternative-background: #fff;
+    --button-alternative-background-rgb: 255, 255, 255;
+    --button-background-disabled: #e6e6e6;
+    --button-background-disabled-rgb: 230, 230, 230;
+    --button-bubble: rgba(0, 150, 136, 0.7);
+    --button-bubble-rgb: 0, 150, 136;
+    --button-primary: #fff;
+    --button-primary-rgb: 255, 255, 255;
+    --button-primary-background: #05cd51;
+    --button-primary-background-rgb: 5.44623, 204.85377, 81.46347;
+    --button-primary-background-hover: #06d253;
+    --button-primary-background-hover-rgb: 5.57831, 209.82169, 83.43905;
+    --button-round-background: #09e85e;
+    --button-round-background-rgb: 8.64769, 232.25231, 93.88923;
+    --button-secondary: #07BC4C;
+    --button-secondary-rgb: 7, 188, 76;
+    --button-secondary-background: #fff;
+    --button-secondary-background-rgb: 255, 255, 255;
+    --button-secondary-background-hover: #fff;
+    --button-secondary-background-hover-rgb: 255, 255, 255;
+    --button-secondary-hover: #05cd51;
+    --button-secondary-hover-rgb: 5.44623, 204.85377, 81.46347;
+    --chat-marker: #999;
+    --chat-marker-rgb: 153, 153, 153;
+    --chat-marker-admin: #07BC4C;
+    --chat-marker-admin-rgb: 7, 188, 76;
+    --chat-marker-admin-border: rgba(7, 188, 76, 0.7);
+    --chat-marker-admin-border-rgb: 7, 188, 76;
+    --chat-marker-border: rgba(91, 202, 255, 0.1);
+    --chat-marker-border-rgb: 91, 201.90164, 255;
+    --compose-background: #fff;
+    --compose-background-rgb: 255, 255, 255;
+    --compose-background-focused: #d4f1ff;
+    --compose-background-focused-rgb: 212, 241, 255;
+    --compose-border-focused: #ccedfd;
+    --compose-border-focused-rgb: 204, 237, 253;
+    --compose-panel-background: rgba(255, 255, 255, 0.6);
+    --compose-panel-background-rgb: 255, 255, 255;
+    --conversation-panel-background: #e5ddd5;
+    --conversation-panel-background-rgb: 229, 221, 213;
+    --conversation-panel-border: rgba(0, 0, 0, 0.03);
+    --conversation-panel-border-rgb: 0, 0, 0;
+    --danger: #df3333;
+    --danger-rgb: 223, 51, 51;
+    --drawer-background: #ededed;
+    --drawer-background-rgb: 237, 237, 237;
+    --drawer-gallery-background: #ededed;
+    --drawer-gallery-background-rgb: 237, 237, 237;
+    --drawer-header-title: #fff;
+    --drawer-header-title-rgb: 255, 255, 255;
+    --drawer-section-background: #fff;
+    --drawer-section-background-rgb: 255, 255, 255;
+    --dropdown-background: #fff;
+    --dropdown-background-rgb: 255, 255, 255;
+    --dropdown-background-hover: #f5f5f5;
+    --dropdown-background-hover-rgb: 245, 245, 245;
+    --empty-state-background: #e6e6e6;
+    --empty-state-background-rgb: 230, 230, 230;
+    --empty-state-icon: #fff;
+    --empty-state-icon-rgb: 255, 255, 255;
+    --focus: #00A5F4;
+    --focus-rgb: 0, 165, 244;
+    --focus-lighter: rgba(0, 165, 244, 0.1);
+    --focus-lighter-rgb: 0, 165, 244;
+    --highlight: #009688;
+    --highlight-rgb: 0, 150, 136;
+    --icon: #919191;
+    --icon-rgb: 145, 145, 145;
+    --icon-ack: #4FC3F7;
+    --icon-ack-rgb: 79, 195, 247;
+    --icon-disabled: #c9c9c9;
+    --icon-disabled-rgb: 201, 201, 201;
+    --icon-fixed: #919191;
+    --icon-fixed-rgb: 145, 145, 145;
+    --icon-lighter: rgba(0, 0, 0, 0.3);
+    --icon-lighter-rgb: 0, 0, 0;
+    --icon-search-back: #33b7f6;
+    --icon-search-back-rgb: 51, 183, 246;
+    --icon-strong: #333;
+    --icon-strong-rgb: 51, 51, 51;
+    --incoming-background: #fff;
+    --incoming-background-rgb: 255, 255, 255;
+    --incoming-background-deeper: #f0f0f0;
+    --incoming-background-deeper-rgb: 240, 240, 240;
+    --incoming-background-highlight: #ccc;
+    --incoming-background-highlight-rgb: 204, 204, 204;
+    --incoming-primary: #989898;
+    --incoming-primary-rgb: 152, 152, 152;
+    --input-border-active: #00BFA5;
+    --input-border-active-rgb: 0, 191, 165;
+    --input-placeholder: #999;
+    --input-placeholder-rgb: 153, 153, 153;
+    --intro-background: #f8f9fa;
+    --intro-background-rgb: 248, 249, 250;
+    --intro-border: #4adf83;
+    --intro-border-rgb: 74.14115, 222.85885, 130.83464;
+    --inverse: #fff;
+    --inverse-rgb: 255, 255, 255;
+    --link: #039BE5;
+    --link-rgb: 3, 155, 229;
+    --live-location-footer-background: rgba(255, 255, 255, 0.9);
+    --live-location-footer-background-rgb: 255, 255, 255;
+    --live-location-glow: rgba(37, 211, 102, 0.3);
+    --live-location-glow-rgb: 37, 211, 102;
+    --live-location-glow-stale: rgba(255, 0, 31, 0.3);
+    --live-location-glow-stale-rgb: 255, 0, 31;
+    --location-cluster-background: #fff;
+    --location-cluster-background-rgb: 255, 255, 255;
+    --media-editor-control: #1c313f;
+    --media-editor-control-rgb: 28, 49, 63;
+    --media-viewer-background: rgba(255, 255, 255, 0.96);
+    --media-viewer-background-rgb: 255, 255, 255;
+    --media-viewer-button-background: #ccc;
+    --media-viewer-button-background-rgb: 204, 204, 204;
+    --media-viewer-button-icon: #fff;
+    --media-viewer-button-icon-rgb: 255, 255, 255;
+    --menu-tabs-list-active: #6cea91;
+    --menu-tabs-list-active-rgb: 108.28579, 234.05421, 145.4638;
+    --message-background-deep: rgba(0, 0, 0, 0.12);
+    --message-background-deep-rgb: 0, 0, 0;
+    --message-placeholder-icon: rgba(48, 48, 48, 0.3);
+    --message-placeholder-icon-rgb: 48, 48, 48;
+    --message-selection-highlight: rgba(0, 150, 136, 0.08);
+    --message-selection-highlight-rgb: 0, 150, 136;
+    --modal-backdrop: rgba(255, 255, 255, 0.85);
+    --modal-backdrop-rgb: 255, 255, 255;
+    --modal-backdrop-solid: #ededed;
+    --modal-backdrop-solid-rgb: 237, 237, 237;
+    --modal-background: #fff;
+    --modal-background-rgb: 255, 255, 255;
+    --notification-biz-background: rgba(236, 250, 245, 0.95);
+    --notification-biz-background-rgb: 236, 250, 245;
+    --notification-e2e-background: rgba(255, 245, 196, 0.95);
+    --notification-e2e-background-rgb: 255, 245, 196;
+    --notification-e2e-icon: rgba(0, 0, 0, 0.45);
+    --notification-e2e-icon-rgb: 0, 0, 0;
+    --notification-e2e-text: rgba(0, 0, 0, 0.96);
+    --notification-e2e-text-rgb: 0, 0, 0;
+    --notification-text: rgba(0, 0, 0, 0.96);
+    --notification-text-rgb: 0, 0, 0;
+    --outgoing-background: #DCF8C6;
+    --outgoing-background-rgb: 220, 248, 198;
+    --outgoing-background-deeper: #cfe9ba;
+    --outgoing-background-deeper-rgb: 207, 233, 186;
+    --outgoing-background-highlight: #B3CBA1;
+    --outgoing-background-highlight-rgb: 179, 203, 161;
+    --overlay: #000;
+    --overlay-rgb: 0, 0, 0;
+    --panel-background: #ededed;
+    --panel-background-rgb: 237, 237, 237;
+    --panel-background-active: #dadada;
+    --panel-background-active-rgb: 218, 218, 218;
+    --panel-background-colored: #00BFA5;
+    --panel-background-colored-rgb: 0, 191, 165;
+    --panel-background-colored-deeper: #009688;
+    --panel-background-colored-deeper-rgb: 0, 150, 136;
+    --panel-background-deep: #d9d9d9;
+    --panel-background-deep-rgb: 217, 217, 217;
+    --panel-background-deeper: #e6e6e6;
+    --panel-background-deeper-rgb: 230, 230, 230;
+    --panel-background-hover: #e4e4e4;
+    --panel-background-hover-rgb: 228, 228, 228;
+    --panel-background-lighter: #f7f7f7;
+    --panel-background-lighter-rgb: 247, 247, 247;
+    --panel-primary: rgba(0, 0, 0, 0.35);
+    --panel-primary-rgb: 0, 0, 0;
+    --payment-amount: #008c7f;
+    --payment-amount-rgb: 0, 139.8, 126.752;
+    --payment-status-failed: #F44336;
+    --payment-status-failed-rgb: 244, 67, 54;
+    --payment-status-processing: rgba(0, 0, 0, 0.45);
+    --payment-status-processing-rgb: 0, 0, 0;
+    --payment-status-success: #07BC4C;
+    --payment-status-success-rgb: 7, 188, 76;
+    --payment-status-waiting: rgba(0, 0, 0, 0.45);
+    --payment-status-waiting-rgb: 0, 0, 0;
+    --photopicker-overlay-background: rgba(102, 102, 102, 0.8);
+    --photopicker-overlay-background-rgb: 102, 102, 102;
+    --popup-panel-background: rgba(0, 0, 0, 0.05);
+    --popup-panel-background-rgb: 0, 0, 0;
+    --primary: #4a4a4a;
+    --primary-rgb: 74, 74, 74;
+    --primary-strong: #000;
+    --primary-strong-rgb: 0, 0, 0;
+    --primary-stronger: #303030;
+    --primary-stronger-rgb: 48, 48, 48;
+    --primary-title: #525252;
+    --primary-title-rgb: 81.65, 81.65, 81.65;
+    --product-thumb-background: #ededed;
+    --product-thumb-background-rgb: 237, 237, 237;
+    --ptt-blue: #4FC3F7;
+    --ptt-blue-rgb: 79, 195, 247;
+    --ptt-button-cancel: rgba(229, 57, 53, 0.8);
+    --ptt-button-cancel-rgb: 229, 57, 53;
+    --ptt-button-send: rgba(9, 210, 97, 0.8);
+    --ptt-button-send-rgb: 9, 210, 97;
+    --ptt-gray: rgba(48, 48, 48, 0.7);
+    --ptt-gray-rgb: 48, 48, 48;
+    --ptt-green: #09D261;
+    --ptt-green-rgb: 9, 210, 97;
+    --ptt-message-blue: #039BE5;
+    --ptt-message-blue-rgb: 3, 155, 229;
+    --quick-action-button: #fff;
+    --quick-action-button-rgb: 255, 255, 255;
+    --quick-action-button-background: rgba(0, 0, 0, 0.14);
+    --quick-action-button-background-rgb: 0, 0, 0;
+    --rich-text-panel-background: #f0f0f0;
+    --rich-text-panel-background-rgb: 240, 240, 240;
+    --secondary: rgba(0, 0, 0, 0.6);
+    --secondary-rgb: 0, 0, 0;
+    --secondary-light: rgba(0, 0, 0, 0.25);
+    --secondary-light-rgb: 0, 0, 0;
+    --secondary-lighter: rgba(0, 0, 0, 0.45);
+    --secondary-lighter-rgb: 0, 0, 0;
+    --secondary-stronger: rgba(0, 0, 0, 0.8);
+    --secondary-stronger-rgb: 0, 0, 0;
+    --shadow: #000;
+    --shadow-rgb: 0, 0, 0;
+    --shadow-light: rgba(0, 0, 0, 0.08);
+    --shadow-light-rgb: 0, 0, 0;
+    --spinner-default: #ccc;
+    --spinner-default-rgb: 204, 204, 204;
+    --spinner-highlight: rgba(7, 188, 76, 0.7);
+    --spinner-highlight-rgb: 7, 188, 76;
+    --spinner-incoming: #b3b3b3;
+    --spinner-incoming-rgb: 179, 179, 179;
+    --spinner-outgoing: #9aae8b;
+    --spinner-outgoing-rgb: 154, 174, 139;
+    --status-background: #000;
+    --status-background-rgb: 0, 0, 0;
+    --status-background-hover: #262626;
+    --status-background-hover-rgb: 38, 38, 38;
+    --status-primary: #fff;
+    --status-primary-rgb: 255, 255, 255;
+    --status-secondary: rgba(255, 255, 255, 0.55);
+    --status-secondary-rgb: 255, 255, 255;
+    --status-secondary-stronger: #b3b3b3;
+    --status-secondary-stronger-rgb: 179, 179, 179;
+    --success: #07BC4C;
+    --success-rgb: 7, 188, 76;
+    --suspicious-background: rgba(244, 67, 54, 0.8);
+    --suspicious-background-rgb: 244, 67, 54;
+    --system-message-background: rgba(225, 245, 254, 0.92);
+    --system-message-background-rgb: 225, 245, 254;
+    --system-message-text: rgba(0, 0, 0, 0.88);
+    --system-message-text-rgb: 0, 0, 0;
+    --teal-hover: #00ab97;
+    --teal-hover-rgb: 0, 171, 151;
+    --teal-pale: #5fb9b0;
+    --teal-pale-rgb: 95, 185, 176;
+    --thumb-border-active: #fff;
+    --thumb-border-active-rgb: 255, 255, 255;
+    --thumb-border-viewer-active: #ccc;
+    --thumb-border-viewer-active-rgb: 204, 204, 204;
+    --toast-background: rgba(0, 0, 0, 0.82);
+    --toast-background-rgb: 0, 0, 0;
+    --tooltip-background: rgba(89, 89, 89, 0.85);
+    --tooltip-background-rgb: 89.25, 89.25, 89.25;
+    --typing: #07BC4C;
+    --typing-rgb: 7, 188, 76;
+    --unread-background: #fff;
+    --unread-background-rgb: 255, 255, 255;
+    --unread-bar-background: rgba(255, 255, 255, 0.25);
+    --unread-bar-background-rgb: 255, 255, 255;
+    --unread-marker-background: #06d755;
+    --unread-marker-background-rgb: 5.71038, 214.78962, 85.41462;
+    --unread-marker-text: #fff;
+    --unread-marker-text-rgb: 255, 255, 255;
+    --video-player-background: #000;
+    --video-player-background-rgb: 0, 0, 0;
+    --video-primary: #fff;
+    --video-primary-rgb: 255, 255, 255;
+    --voip-accept-background: #39d575;
+    --voip-accept-background-rgb: 57, 213, 117;
+    --voip-background: #262626;
+    --voip-background-rgb: 38, 38, 38;
+    --voip-background-deep: #000;
+    --voip-background-deep-rgb: 0, 0, 0;
+    --voip-primary: #fff;
+    --voip-primary-rgb: 255, 255, 255;
+    --voip-reject-background: #e54b40;
+    --voip-reject-background-rgb: 229, 75, 64;
+    --win32-title-primary: #fff;
+    --win32-title-primary-rgb: 255, 255, 255;
+    --focus-animation: rgba(0, 165, 244, 0.22);
+    --focus-animation-rgb: 0, 165, 244;
+    --focus-animation-deeper: rgba(0, 165, 244, 0.3);
+    --focus-animation-deeper-rgb: 0, 165, 244;
+    --focus-animation: rgba(0, 165, 244, 0.22);
+    --focus-animation-rgb: 0, 165, 244;
+    --focus-animation-deeper: rgba(0, 165, 244, 0.3);
+    --focus-animation-deeper-rgb: 0, 165, 244
+}
+
+.color-beige {
+    color: #e5ddd5
+}
+
+.color-black {
+    color: #000
+}
+
+.color-blue {
+    color: #039BE5
+}
+
+.color-blue-light {
+    color: #00A5F4
+}
+
+.color-blue-ocean {
+    color: #AADAFF
+}
+
+.color-blue-sky {
+    color: #9DE1FE
+}
+
+.color-dark {
+    color: #263238
+}
+
+.color-gray-30 {
+    color: #f7f7f7
+}
+
+.color-gray-60 {
+    color: #f0f0f0
+}
+
+.color-gray-70 {
+    color: #ededed
+}
+
+.color-gray-100 {
+    color: #e6e6e6
+}
+
+.color-gray-150 {
+    color: #d9d9d9
+}
+
+.color-gray-200 {
+    color: #ccc
+}
+
+.color-gray-300 {
+    color: #b3b3b3
+}
+
+.color-gray-400 {
+    color: #999
+}
+
+.color-gray-500 {
+    color: gray
+}
+
+.color-gray-600 {
+    color: #666
+}
+
+.color-gray-700 {
+    color: #4a4a4a
+}
+
+.color-gray-800 {
+    color: #303030
+}
+
+.color-gray-850 {
+    color: #262626
+}
+
+.color-gray-900 {
+    color: #1a1a1a
+}
+
+.color-green {
+    color: #07BC4C
+}
+
+.color-green-deep {
+    color: #1B9A59
+}
+
+.color-orange {
+    color: #FFAD20
+}
+
+.color-pale-blue-green {
+    color: #ECFAF5
+}
+
+.color-pale-green {
+    color: #DCF8C6
+}
+
+.color-pale-yellow {
+    color: #FFF5C4
+}
+
+.color-red {
+    color: #D70000
+}
+
+.color-red-light {
+    color: #F44336
+}
+
+.color-teal {
+    color: #009688
+}
+
+.color-teal-light {
+    color: #1DE9B6
+}
+
+.color-teal-lighter {
+    color: #00BFA5
+}
+
+.color-white {
+    color: #fff
+}
+
+.color-yellow {
+    color: #FED859
+}
+
+.color-active-tab-marker {
+    color: #009688
+}
+
+.color-app-background-stripe {
+    color: #009688
+}
+
+.color-audio-progress-incoming {
+    color: #31c76a
+}
+
+.color-audio-progress-outgoing {
+    color: #889a7b
+}
+
+.color-audio-progress-played-incoming {
+    color: #30b6f6
+}
+
+.color-audio-progress-played-outgoing {
+    color: #2ab5eb
+}
+
+.color-audio-track-incoming {
+    color: #e6e6e6
+}
+
+.color-audio-track-outgoing {
+    color: #c6dfb2
+}
+
+.color-avatar-background {
+    color: #e6e6e6
+}
+
+.color-avatar-border {
+    color: #fff
+}
+
+.color-avatar-placeholder-background {
+    color: #DFE5E7
+}
+
+.color-avatar-placeholder-primary {
+    color: #fff
+}
+
+.color-background-app {
+    color: #e0e0e0
+}
+
+.color-background-default {
+    color: #fff
+}
+
+.color-background-default-active {
+    color: #ebebeb
+}
+
+.color-background-default-hover {
+    color: #f5f5f5
+}
+
+.color-border-bubble {
+    color: rgba(0, 0, 0, 0.06)
+}
+
+.color-border-default {
+    color: #f0f0f0
+}
+
+.color-border-list {
+    color: #f2f2f2
+}
+
+.color-border-panel {
+    color: rgba(0, 0, 0, 0.05)
+}
+
+.color-border-strong {
+    color: #d9d9d9
+}
+
+.color-border-stronger {
+    color: rgba(0, 0, 0, 0.08)
+}
+
+.color-butterbar-battery-background {
+    color: #fa685e
+}
+
+.color-butterbar-battery-primary {
+    color: #fff
+}
+
+.color-butterbar-battery-secondary {
+    color: #fff
+}
+
+.color-butterbar-connection-background {
+    color: #FED859
+}
+
+.color-butterbar-default-background {
+    color: #9DE1FE
+}
+
+.color-butterbar-icon {
+    color: rgba(255, 255, 255, 0.9)
+}
+
+.color-butterbar-primary {
+    color: rgba(48, 48, 48, 0.96)
+}
+
+.color-butterbar-secondary {
+    color: rgba(48, 48, 48, 0.85)
+}
+
+.color-butterbar-update-background {
+    color: #1DE9B6
+}
+
+.color-button-alternative {
+    color: #00A5F4
+}
+
+.color-button-alternative-background {
+    color: #fff
+}
+
+.color-button-background-disabled {
+    color: #e6e6e6
+}
+
+.color-button-bubble {
+    color: rgba(0, 150, 136, 0.7)
+}
+
+.color-button-primary {
+    color: #fff
+}
+
+.color-button-primary-background {
+    color: #05cd51
+}
+
+.color-button-primary-background-hover {
+    color: #06d253
+}
+
+.color-button-round-background {
+    color: #09e85e
+}
+
+.color-button-secondary {
+    color: #07BC4C
+}
+
+.color-button-secondary-background {
+    color: #fff
+}
+
+.color-button-secondary-background-hover {
+    color: #fff
+}
+
+.color-button-secondary-hover {
+    color: #05cd51
+}
+
+.color-chat-marker {
+    color: #999
+}
+
+.color-chat-marker-admin {
+    color: #07BC4C
+}
+
+.color-chat-marker-admin-border {
+    color: rgba(7, 188, 76, 0.7)
+}
+
+.color-chat-marker-border {
+    color: rgba(91, 202, 255, 0.1)
+}
+
+.color-compose-background {
+    color: #fff
+}
+
+.color-compose-background-focused {
+    color: #d4f1ff
+}
+
+.color-compose-border-focused {
+    color: #ccedfd
+}
+
+.color-compose-panel-background {
+    color: rgba(255, 255, 255, 0.6)
+}
+
+.color-conversation-panel-background {
+    color: #e5ddd5
+}
+
+.color-conversation-panel-border {
+    color: rgba(0, 0, 0, 0.03)
+}
+
+.color-danger {
+    color: #df3333
+}
+
+.color-drawer-background {
+    color: #ededed
+}
+
+.color-drawer-gallery-background {
+    color: #ededed
+}
+
+.color-drawer-header-title {
+    color: #fff
+}
+
+.color-drawer-section-background {
+    color: #fff
+}
+
+.color-dropdown-background {
+    color: #fff
+}
+
+.color-dropdown-background-hover {
+    color: #f5f5f5
+}
+
+.color-empty-state-background {
+    color: #e6e6e6
+}
+
+.color-empty-state-icon {
+    color: #fff
+}
+
+.color-focus {
+    color: #00A5F4
+}
+
+.color-focus-lighter {
+    color: rgba(0, 165, 244, 0.1)
+}
+
+.color-focus-animation {
+    color: rgba(0, 165, 244, 0.22)
+}
+
+.color-focus-animation-deeper {
+    color: rgba(0, 165, 244, 0.3)
+}
+
+.color-highlight {
+    color: #009688
+}
+
+.color-icon {
+    color: #919191
+}
+
+.color-icon-ack {
+    color: #4FC3F7
+}
+
+.color-icon-disabled {
+    color: #c9c9c9
+}
+
+.color-icon-fixed {
+    color: #919191
+}
+
+.color-icon-lighter {
+    color: rgba(0, 0, 0, 0.3)
+}
+
+.color-icon-search-back {
+    color: #33b7f6
+}
+
+.color-icon-strong {
+    color: #333
+}
+
+.color-incoming-background {
+    color: #fff
+}
+
+.color-incoming-background-deeper {
+    color: #f0f0f0
+}
+
+.color-incoming-background-highlight {
+    color: #ccc
+}
+
+.color-incoming-primary {
+    color: #989898
+}
+
+.color-input-border-active {
+    color: #00BFA5
+}
+
+.color-input-placeholder {
+    color: #999
+}
+
+.color-intro-background {
+    color: #f8f9fa
+}
+
+.color-intro-border {
+    color: #4adf83
+}
+
+.color-inverse {
+    color: #fff
+}
+
+.color-link {
+    color: #039BE5
+}
+
+.color-live-location-footer-background {
+    color: rgba(255, 255, 255, 0.9)
+}
+
+.color-live-location-glow {
+    color: rgba(37, 211, 102, 0.3)
+}
+
+.color-live-location-glow-stale {
+    color: rgba(255, 0, 31, 0.3)
+}
+
+.color-location-cluster-background {
+    color: #fff
+}
+
+.color-media-editor-control {
+    color: #1c313f
+}
+
+.color-media-viewer-background {
+    color: rgba(255, 255, 255, 0.96)
+}
+
+.color-media-viewer-button-background {
+    color: #ccc
+}
+
+.color-media-viewer-button-icon {
+    color: #fff
+}
+
+.color-menu-tabs-list-active {
+    color: #6cea91
+}
+
+.color-message-background-deep {
+    color: rgba(0, 0, 0, 0.12)
+}
+
+.color-message-placeholder-icon {
+    color: rgba(48, 48, 48, 0.3)
+}
+
+.color-message-selection-highlight {
+    color: rgba(0, 150, 136, 0.08)
+}
+
+.color-modal-backdrop {
+    color: rgba(255, 255, 255, 0.85)
+}
+
+.color-modal-backdrop-solid {
+    color: #ededed
+}
+
+.color-modal-background {
+    color: #fff
+}
+
+.color-notification-biz-background {
+    color: rgba(236, 250, 245, 0.95)
+}
+
+.color-notification-e2e-background {
+    color: rgba(255, 245, 196, 0.95)
+}
+
+.color-notification-e2e-icon {
+    color: rgba(0, 0, 0, 0.45)
+}
+
+.color-notification-e2e-text {
+    color: rgba(0, 0, 0, 0.96)
+}
+
+.color-notification-text {
+    color: rgba(0, 0, 0, 0.96)
+}
+
+.color-outgoing-background {
+    color: #DCF8C6
+}
+
+.color-outgoing-background-deeper {
+    color: #cfe9ba
+}
+
+.color-outgoing-background-highlight {
+    color: #B3CBA1
+}
+
+.color-overlay {
+    color: #000
+}
+
+.color-panel-background {
+    color: #ededed
+}
+
+.color-panel-background-active {
+    color: #dadada
+}
+
+.color-panel-background-colored {
+    color: #00BFA5
+}
+
+.color-panel-background-colored-deeper {
+    color: #009688
+}
+
+.color-panel-background-deep {
+    color: #d9d9d9
+}
+
+.color-panel-background-deeper {
+    color: #e6e6e6
+}
+
+.color-panel-background-hover {
+    color: #e4e4e4
+}
+
+.color-panel-background-lighter {
+    color: #f7f7f7
+}
+
+.color-panel-primary {
+    color: rgba(0, 0, 0, 0.35)
+}
+
+.color-payment-amount {
+    color: #008c7f
+}
+
+.color-payment-status-failed {
+    color: #F44336
+}
+
+.color-payment-status-processing {
+    color: rgba(0, 0, 0, 0.45)
+}
+
+.color-payment-status-success {
+    color: #07BC4C
+}
+
+.color-payment-status-waiting {
+    color: rgba(0, 0, 0, 0.45)
+}
+
+.color-photopicker-overlay-background {
+    color: rgba(102, 102, 102, 0.8)
+}
+
+.color-popup-panel-background {
+    color: rgba(0, 0, 0, 0.05)
+}
+
+.color-primary {
+    color: #4a4a4a
+}
+
+.color-primary-strong {
+    color: #000
+}
+
+.color-primary-stronger {
+    color: #303030
+}
+
+.color-primary-title {
+    color: #525252
+}
+
+.color-product-thumb-background {
+    color: #ededed
+}
+
+.color-ptt-blue {
+    color: #4FC3F7
+}
+
+.color-ptt-button-cancel {
+    color: rgba(229, 57, 53, 0.8)
+}
+
+.color-ptt-button-send {
+    color: rgba(9, 210, 97, 0.8)
+}
+
+.color-ptt-gray {
+    color: rgba(48, 48, 48, 0.7)
+}
+
+.color-ptt-green {
+    color: #09D261
+}
+
+.color-ptt-message-blue {
+    color: #039BE5
+}
+
+.color-quick-action-button {
+    color: #fff
+}
+
+.color-quick-action-button-background {
+    color: rgba(0, 0, 0, 0.14)
+}
+
+.color-rich-text-panel-background {
+    color: #f0f0f0
+}
+
+.color-secondary {
+    color: rgba(0, 0, 0, 0.6)
+}
+
+.color-secondary-light {
+    color: rgba(0, 0, 0, 0.25)
+}
+
+.color-secondary-lighter {
+    color: rgba(0, 0, 0, 0.45)
+}
+
+.color-secondary-stronger {
+    color: rgba(0, 0, 0, 0.8)
+}
+
+.color-shadow {
+    color: #000
+}
+
+.color-shadow-light {
+    color: rgba(0, 0, 0, 0.08)
+}
+
+.color-spinner-default {
+    color: #ccc
+}
+
+.color-spinner-highlight {
+    color: rgba(7, 188, 76, 0.7)
+}
+
+.color-spinner-incoming {
+    color: #b3b3b3
+}
+
+.color-spinner-outgoing {
+    color: #9aae8b
+}
+
+.color-status-background {
+    color: #000
+}
+
+.color-status-background-hover {
+    color: #262626
+}
+
+.color-status-primary {
+    color: #fff
+}
+
+.color-status-secondary {
+    color: rgba(255, 255, 255, 0.55)
+}
+
+.color-status-secondary-stronger {
+    color: #b3b3b3
+}
+
+.color-success {
+    color: #07BC4C
+}
+
+.color-suspicious-background {
+    color: rgba(244, 67, 54, 0.8)
+}
+
+.color-system-message-background {
+    color: rgba(225, 245, 254, 0.92)
+}
+
+.color-system-message-text {
+    color: rgba(0, 0, 0, 0.88)
+}
+
+.color-teal-hover {
+    color: #00ab97
+}
+
+.color-teal-pale {
+    color: #5fb9b0
+}
+
+.color-thumb-border-active {
+    color: #fff
+}
+
+.color-thumb-border-viewer-active {
+    color: #ccc
+}
+
+.color-toast-background {
+    color: rgba(0, 0, 0, 0.82)
+}
+
+.color-tooltip-background {
+    color: rgba(89, 89, 89, 0.85)
+}
+
+.color-typing {
+    color: #07BC4C
+}
+
+.color-unread-background {
+    color: #fff
+}
+
+.color-unread-bar-background {
+    color: rgba(255, 255, 255, 0.25)
+}
+
+.color-unread-marker-background {
+    color: #06d755
+}
+
+.color-unread-marker-text {
+    color: #fff
+}
+
+.color-video-player-background {
+    color: #000
+}
+
+.color-video-primary {
+    color: #fff
+}
+
+.color-voip-accept-background {
+    color: #39d575
+}
+
+.color-voip-background {
+    color: #262626
+}
+
+.color-voip-background-deep {
+    color: #000
+}
+
+.color-voip-primary {
+    color: #fff
+}
+
+.color-voip-reject-background {
+    color: #e54b40
+}
+
+.color-win32-title-primary {
+    color: #fff
+}
+
+html[dir=ltr] .color-1 {
+    color: #35cd96 !important
+}
+
+html[dir=rtl] .color-1 {
+    color: #35cd96 !important
+}
+
+html[dir=ltr] .bg-color-1 {
+    background-color: #35cd96 !important
+}
+
+html[dir=rtl] .bg-color-1 {
+    background-color: #35cd96 !important
+}
+
+html[dir=ltr] .color-2 {
+    color: #6bcbef !important
+}
+
+html[dir=rtl] .color-2 {
+    color: #6bcbef !important
+}
+
+html[dir=ltr] .bg-color-2 {
+    background-color: #6bcbef !important
+}
+
+html[dir=rtl] .bg-color-2 {
+    background-color: #6bcbef !important
+}
+
+html[dir=ltr] .color-3 {
+    color: #e542a3 !important
+}
+
+html[dir=rtl] .color-3 {
+    color: #e542a3 !important
+}
+
+html[dir=ltr] .bg-color-3 {
+    background-color: #e542a3 !important
+}
+
+html[dir=rtl] .bg-color-3 {
+    background-color: #e542a3 !important
+}
+
+html[dir=ltr] .color-4 {
+    color: #91ab01 !important
+}
+
+html[dir=rtl] .color-4 {
+    color: #91ab01 !important
+}
+
+html[dir=ltr] .bg-color-4 {
+    background-color: #91ab01 !important
+}
+
+html[dir=rtl] .bg-color-4 {
+    background-color: #91ab01 !important
+}
+
+html[dir=ltr] .color-5 {
+    color: #ffa97a !important
+}
+
+html[dir=rtl] .color-5 {
+    color: #ffa97a !important
+}
+
+html[dir=ltr] .bg-color-5 {
+    background-color: #ffa97a !important
+}
+
+html[dir=rtl] .bg-color-5 {
+    background-color: #ffa97a !important
+}
+
+html[dir=ltr] .color-6 {
+    color: #1f7aec !important
+}
+
+html[dir=rtl] .color-6 {
+    color: #1f7aec !important
+}
+
+html[dir=ltr] .bg-color-6 {
+    background-color: #1f7aec !important
+}
+
+html[dir=rtl] .bg-color-6 {
+    background-color: #1f7aec !important
+}
+
+html[dir=ltr] .color-7 {
+    color: #dfb610 !important
+}
+
+html[dir=rtl] .color-7 {
+    color: #dfb610 !important
+}
+
+html[dir=ltr] .bg-color-7 {
+    background-color: #dfb610 !important
+}
+
+html[dir=rtl] .bg-color-7 {
+    background-color: #dfb610 !important
+}
+
+html[dir=ltr] .color-8 {
+    color: #029d00 !important
+}
+
+html[dir=rtl] .color-8 {
+    color: #029d00 !important
+}
+
+html[dir=ltr] .bg-color-8 {
+    background-color: #029d00 !important
+}
+
+html[dir=rtl] .bg-color-8 {
+    background-color: #029d00 !important
+}
+
+html[dir=ltr] .color-9 {
+    color: #8b7add !important
+}
+
+html[dir=rtl] .color-9 {
+    color: #8b7add !important
+}
+
+html[dir=ltr] .bg-color-9 {
+    background-color: #8b7add !important
+}
+
+html[dir=rtl] .bg-color-9 {
+    background-color: #8b7add !important
+}
+
+html[dir=ltr] .color-10 {
+    color: #fe7c7f !important
+}
+
+html[dir=rtl] .color-10 {
+    color: #fe7c7f !important
+}
+
+html[dir=ltr] .bg-color-10 {
+    background-color: #fe7c7f !important
+}
+
+html[dir=rtl] .bg-color-10 {
+    background-color: #fe7c7f !important
+}
+
+html[dir=ltr] .color-11 {
+    color: #ba33dc !important
+}
+
+html[dir=rtl] .color-11 {
+    color: #ba33dc !important
+}
+
+html[dir=ltr] .bg-color-11 {
+    background-color: #ba33dc !important
+}
+
+html[dir=rtl] .bg-color-11 {
+    background-color: #ba33dc !important
+}
+
+html[dir=ltr] .color-12 {
+    color: #59d368 !important
+}
+
+html[dir=rtl] .color-12 {
+    color: #59d368 !important
+}
+
+html[dir=ltr] .bg-color-12 {
+    background-color: #59d368 !important
+}
+
+html[dir=rtl] .bg-color-12 {
+    background-color: #59d368 !important
+}
+
+html[dir=ltr] .color-13 {
+    color: #b04632 !important
+}
+
+html[dir=rtl] .color-13 {
+    color: #b04632 !important
+}
+
+html[dir=ltr] .bg-color-13 {
+    background-color: #b04632 !important
+}
+
+html[dir=rtl] .bg-color-13 {
+    background-color: #b04632 !important
+}
+
+html[dir=ltr] .color-14 {
+    color: #fd85d4 !important
+}
+
+html[dir=rtl] .color-14 {
+    color: #fd85d4 !important
+}
+
+html[dir=ltr] .bg-color-14 {
+    background-color: #fd85d4 !important
+}
+
+html[dir=rtl] .bg-color-14 {
+    background-color: #fd85d4 !important
+}
+
+html[dir=ltr] .color-15 {
+    color: #8393ca !important
+}
+
+html[dir=rtl] .color-15 {
+    color: #8393ca !important
+}
+
+html[dir=ltr] .bg-color-15 {
+    background-color: #8393ca !important
+}
+
+html[dir=rtl] .bg-color-15 {
+    background-color: #8393ca !important
+}
+
+html[dir=ltr] .color-16 {
+    color: #ff8f2c !important
+}
+
+html[dir=rtl] .color-16 {
+    color: #ff8f2c !important
+}
+
+html[dir=ltr] .bg-color-16 {
+    background-color: #ff8f2c !important
+}
+
+html[dir=rtl] .bg-color-16 {
+    background-color: #ff8f2c !important
+}
+
+html[dir=ltr] .color-17 {
+    color: #3bdec3 !important
+}
+
+html[dir=rtl] .color-17 {
+    color: #3bdec3 !important
+}
+
+html[dir=ltr] .bg-color-17 {
+    background-color: #3bdec3 !important
+}
+
+html[dir=rtl] .bg-color-17 {
+    background-color: #3bdec3 !important
+}
+
+html[dir=ltr] .color-18 {
+    color: #b4876e !important
+}
+
+html[dir=rtl] .color-18 {
+    color: #b4876e !important
+}
+
+html[dir=ltr] .bg-color-18 {
+    background-color: #b4876e !important
+}
+
+html[dir=rtl] .bg-color-18 {
+    background-color: #b4876e !important
+}
+
+html[dir=ltr] .color-19 {
+    color: #c90379 !important
+}
+
+html[dir=rtl] .color-19 {
+    color: #c90379 !important
+}
+
+html[dir=ltr] .bg-color-19 {
+    background-color: #c90379 !important
+}
+
+html[dir=rtl] .bg-color-19 {
+    background-color: #c90379 !important
+}
+
+html[dir=ltr] .color-20 {
+    color: #ef4b4f !important
+}
+
+html[dir=rtl] .color-20 {
+    color: #ef4b4f !important
+}
+
+html[dir=ltr] .bg-color-20 {
+    background-color: #ef4b4f !important
+}
+
+html[dir=rtl] .bg-color-20 {
+    background-color: #ef4b4f !important
+}
+
+.dark {
+    --active-tab-marker: #00AF9C;
+    --active-tab-marker-rgb: 0, 175, 156;
+    --app-background-stripe: #163636;
+    --app-background-stripe-rgb: 22, 54, 54;
+    --audio-progress-incoming: #0ca448;
+    --audio-progress-incoming-rgb: 12, 164, 72;
+    --audio-progress-outgoing: #648d89;
+    --audio-progress-outgoing-rgb: 100, 141, 137;
+    --audio-progress-played-incoming: #068ed0;
+    --audio-progress-played-incoming-rgb: 6, 142, 208;
+    --audio-progress-played-outgoing: #0193d2;
+    --audio-progress-played-outgoing-rgb: 1, 147, 210;
+    --audio-track-incoming: #384349;
+    --audio-track-incoming-rgb: 56, 67, 73;
+    --audio-track-outgoing: #1e5953;
+    --audio-track-outgoing-rgb: 30, 89, 83;
+    --avatar-background: #101D24;
+    --avatar-background-rgb: 16, 29, 36;
+    --avatar-border: #A5AAAD;
+    --avatar-border-rgb: 165, 170, 173;
+    --avatar-placeholder-background: #223138;
+    --avatar-placeholder-background-rgb: 34, 49, 56;
+    --avatar-placeholder-primary: #6d7e86;
+    --avatar-placeholder-primary-rgb: 109, 126, 134;
+    --background-app: #e0e0e0;
+    --background-app-rgb: 224, 224, 224;
+    --background-default: #101D24;
+    --background-default-rgb: 16, 29, 36;
+    --background-default-active: #212d33;
+    --background-default-active-rgb: 33, 45, 51;
+    --background-default-hover: #17242b;
+    --background-default-hover-rgb: 23, 36, 43;
+    --border-bubble: rgba(255, 255, 255, 0.06);
+    --border-bubble-rgb: 255, 255, 255;
+    --border-default: #303030;
+    --border-default-rgb: 48, 48, 48;
+    --border-list: #1c282f;
+    --border-list-rgb: 28, 40, 47;
+    --border-panel: #28343a;
+    --border-panel-rgb: 40, 52, 58;
+    --border-strong: #364147;
+    --border-strong-rgb: 54, 65, 71;
+    --border-stronger: rgba(255, 255, 255, 0.08);
+    --border-stronger-rgb: 255, 255, 255;
+    --butterbar-battery-background: #e05b52;
+    --butterbar-battery-background-rgb: 224, 91, 82;
+    --butterbar-battery-icon: rgba(241, 241, 242, 0.8);
+    --butterbar-battery-icon-rgb: 241, 241, 242;
+    --butterbar-battery-primary: rgba(241, 241, 242, 0.96);
+    --butterbar-battery-primary-rgb: 241, 241, 242;
+    --butterbar-battery-secondary: rgba(241, 241, 242, 0.8);
+    --butterbar-battery-secondary-rgb: 241, 241, 242;
+    --butterbar-connection-background: #FEBC2C;
+    --butterbar-connection-background-rgb: 254, 188, 44;
+    --butterbar-connection-primary: rgba(28, 40, 47, 0.96);
+    --butterbar-connection-primary-rgb: 28, 40, 47;
+    --butterbar-connection-secondary: rgba(28, 40, 47, 0.85);
+    --butterbar-connection-secondary-rgb: 28, 40, 47;
+    --butterbar-default-background: #39c;
+    --butterbar-default-background-rgb: 51, 153, 204;
+    --butterbar-icon: rgba(241, 241, 242, 0.8);
+    --butterbar-icon-rgb: 241, 241, 242;
+    --butterbar-primary: rgba(241, 241, 242, 0.96);
+    --butterbar-primary-rgb: 241, 241, 242;
+    --butterbar-secondary: rgba(241, 241, 242, 0.85);
+    --butterbar-secondary-rgb: 241, 241, 242;
+    --butterbar-update-background: #00AF9C;
+    --butterbar-update-background-rgb: 0, 175, 156;
+    --button-alternative: #00A5F4;
+    --button-alternative-rgb: 0, 165, 244;
+    --button-alternative-background: #232e35;
+    --button-alternative-background-rgb: 35, 46, 53;
+    --button-background-disabled: #253137;
+    --button-background-disabled-rgb: 37, 49, 55;
+    --button-bubble: rgba(0, 175, 156, 0.7);
+    --button-bubble-rgb: 0, 175, 156;
+    --button-primary: #101D24;
+    --button-primary-rgb: 16, 29, 36;
+    --button-primary-background: #00AF9C;
+    --button-primary-background-rgb: 0, 175, 156;
+    --button-primary-background-hover: #00c3ae;
+    --button-primary-background-hover-rgb: 0, 195.4, 174.18514;
+    --button-round-background: #00AF9C;
+    --button-round-background-rgb: 0, 175, 156;
+    --button-secondary: #00AF9C;
+    --button-secondary-rgb: 0, 175, 156;
+    --button-secondary-background: rgba(0, 0, 0, 0);
+    --button-secondary-background-rgb: 0, 0, 0;
+    --button-secondary-background-hover: rgba(255, 255, 255, 0.05);
+    --button-secondary-background-hover-rgb: 255, 255, 255;
+    --button-secondary-hover: #00AF9C;
+    --button-secondary-hover-rgb: 0, 175, 156;
+    --chat-marker: #999;
+    --chat-marker-rgb: 153, 153, 153;
+    --chat-marker-admin: #00AF9C;
+    --chat-marker-admin-rgb: 0, 175, 156;
+    --chat-marker-admin-border: rgba(0, 175, 156, 0.7);
+    --chat-marker-admin-border-rgb: 0, 175, 156;
+    --chat-marker-border: rgba(153, 153, 153, 0.7);
+    --chat-marker-border-rgb: 153, 153, 153;
+    --compose-background: #101D24;
+    --compose-background-rgb: 16, 29, 36;
+    --compose-background-focused: #0c3b52;
+    --compose-background-focused-rgb: 12, 59, 82;
+    --compose-border-focused: #0c405a;
+    --compose-border-focused-rgb: 12, 64, 90;
+    --compose-panel-background: #1C282F;
+    --compose-panel-background-rgb: 28, 40, 47;
+    --conversation-panel-background: #0b1419;
+    --conversation-panel-background-rgb: 11.29231, 20.46731, 25.40769;
+    --conversation-panel-border: rgba(255, 255, 255, 0.08);
+    --conversation-panel-border-rgb: 255, 255, 255;
+    --danger: #EF697A;
+    --danger-rgb: 239, 105, 122;
+    --drawer-background: #0d171d;
+    --drawer-background-rgb: 12.86154, 23.31154, 28.93846;
+    --drawer-gallery-background: #0d171d;
+    --drawer-gallery-background-rgb: 12.86154, 23.31154, 28.93846;
+    --drawer-header-title: #cddad9;
+    --drawer-header-title-rgb: 205, 218, 217;
+    --drawer-section-background: #101D24;
+    --drawer-section-background-rgb: 16, 29, 36;
+    --dropdown-background: #253137;
+    --dropdown-background-rgb: 37, 49, 55;
+    --dropdown-background-hover: #202C33;
+    --dropdown-background-hover-rgb: 32, 44, 51;
+    --empty-state-background: #1C282F;
+    --empty-state-background-rgb: 28, 40, 47;
+    --empty-state-icon: #7c8387;
+    --empty-state-icon-rgb: 124, 131, 135;
+    --focus: #00A5F4;
+    --focus-rgb: 0, 165, 244;
+    --focus-lighter: rgba(0, 165, 244, 0.12);
+    --focus-lighter-rgb: 0, 165, 244;
+    --highlight: #00AF9C;
+    --highlight-rgb: 0, 175, 156;
+    --icon: #757c80;
+    --icon-rgb: 117, 124, 128;
+    --icon-ack: rgba(3, 155, 229, 0.8);
+    --icon-ack-rgb: 3, 155, 229;
+    --icon-disabled: #3e484e;
+    --icon-disabled-rgb: 62, 72, 78;
+    --icon-disabled-darwin: #aeb1b3;
+    --icon-disabled-darwin-rgb: 174, 177, 179;
+    --icon-disabled-win32: #9b9b9b;
+    --icon-disabled-win32-rgb: 155, 155, 155;
+    --icon-fixed: #757c80;
+    --icon-fixed-rgb: 117, 124, 128;
+    --icon-lighter: rgba(255, 255, 255, 0.27);
+    --icon-lighter-rgb: 255, 255, 255;
+    --icon-search-back: #038aca;
+    --icon-search-back-rgb: 3, 138, 202;
+    --icon-strong: #cfd2d3;
+    --icon-strong-rgb: 207, 210, 211;
+    --incoming-background: #222E35;
+    --incoming-background-rgb: 34, 46, 53;
+    --incoming-background-deeper: #1d282e;
+    --incoming-background-deeper-rgb: 29, 40, 46;
+    --incoming-background-highlight: #ccc;
+    --incoming-background-highlight-rgb: 204, 204, 204;
+    --incoming-primary: #777d81;
+    --incoming-primary-rgb: 119, 125, 129;
+    --input-border-active: #00AF9C;
+    --input-border-active-rgb: 0, 175, 156;
+    --input-placeholder: #70777c;
+    --input-placeholder-rgb: 112, 119, 124;
+    --intro-background: #222f36;
+    --intro-background-rgb: 34, 47, 54;
+    --intro-border: #054740;
+    --intro-border-rgb: 5, 71, 64;
+    --inverse: #F1F1F2;
+    --inverse-rgb: 241, 241, 242;
+    --link: #039BE5;
+    --link-rgb: 3, 155, 229;
+    --live-location-footer-background: rgba(16, 29, 36, 0.9);
+    --live-location-footer-background-rgb: 16, 29, 36;
+    --live-location-glow: rgba(37, 211, 102, 0.3);
+    --live-location-glow-rgb: 37, 211, 102;
+    --live-location-glow-stale: rgba(255, 0, 31, 0.3);
+    --live-location-glow-stale-rgb: 255, 0, 31;
+    --location-cluster-background: #101D24;
+    --location-cluster-background-rgb: 16, 29, 36;
+    --media-editor-control: #1c313f;
+    --media-editor-control-rgb: 28, 49, 63;
+    --media-viewer-background: rgba(16, 29, 36, 0.98);
+    --media-viewer-background-rgb: 16, 29, 36;
+    --media-viewer-button-background: #1C282F;
+    --media-viewer-button-background-rgb: 28, 40, 47;
+    --media-viewer-button-icon: #F1F1F2;
+    --media-viewer-button-icon-rgb: 241, 241, 242;
+    --menu-tabs-list-active: #00AF9C;
+    --menu-tabs-list-active-rgb: 0, 175, 156;
+    --message-background-deep: rgba(8, 14, 18, 0.35);
+    --message-background-deep-rgb: 8, 14, 18;
+    --message-placeholder-icon: rgba(204, 204, 204, 0.3);
+    --message-placeholder-icon-rgb: 204, 204, 204;
+    --message-selection-highlight: rgba(255, 255, 255, 0.05);
+    --message-selection-highlight-rgb: 255, 255, 255;
+    --modal-backdrop: rgba(16, 29, 36, 0.85);
+    --modal-backdrop-rgb: 16, 29, 36;
+    --modal-backdrop-solid: #1C282F;
+    --modal-backdrop-solid-rgb: 28, 40, 47;
+    --modal-background: #2D383E;
+    --modal-background-rgb: 45, 56, 62;
+    --notification-biz-background: #1C282F;
+    --notification-biz-background-rgb: 28, 40, 47;
+    --notification-biz-text: #55FAD9;
+    --notification-biz-text-rgb: 85, 250, 217;
+    --notification-e2e-background: #1C282F;
+    --notification-e2e-background-rgb: 28, 40, 47;
+    --notification-e2e-icon: #FAD964;
+    --notification-e2e-icon-rgb: 250, 217, 100;
+    --notification-e2e-text: #FAD964;
+    --notification-e2e-text-rgb: 250, 217, 100;
+    --notification-text: rgba(255, 255, 255, 0.4);
+    --notification-text-rgb: 255, 255, 255;
+    --outgoing-background: #054740;
+    --outgoing-background-rgb: 5, 71, 64;
+    --outgoing-background-deeper: #053f3a;
+    --outgoing-background-deeper-rgb: 5, 63, 58;
+    --outgoing-background-highlight: #ccc;
+    --outgoing-background-highlight-rgb: 204, 204, 204;
+    --overlay: #080E12;
+    --overlay-rgb: 8, 14, 18;
+    --panel-background: #1C282F;
+    --panel-background-rgb: 28, 40, 47;
+    --panel-background-active: #1a262d;
+    --panel-background-active-rgb: 26, 38, 45;
+    --panel-background-colored: #054740;
+    --panel-background-colored-rgb: 5, 71, 64;
+    --panel-background-colored-deeper: #063935;
+    --panel-background-colored-deeper-rgb: 6, 57, 53;
+    --panel-background-deep: #162026;
+    --panel-background-deep-rgb: 22, 32, 38;
+    --panel-background-deeper: #1a252c;
+    --panel-background-deeper-rgb: 26, 37, 44;
+    --panel-background-hover: #1b272e;
+    --panel-background-hover-rgb: 27, 39, 46;
+    --panel-background-lighter: #1a252c;
+    --panel-background-lighter-rgb: 26, 37, 44;
+    --panel-primary: rgba(255, 255, 255, 0.35);
+    --panel-primary-rgb: 255, 255, 255;
+    --payment-amount: #00a593;
+    --payment-amount-rgb: 0, 164.8, 146.90743;
+    --payment-status-failed: #EF697A;
+    --payment-status-failed-rgb: 239, 105, 122;
+    --payment-status-processing: rgba(255, 255, 255, 0.45);
+    --payment-status-processing-rgb: 255, 255, 255;
+    --payment-status-success: #07BC4C;
+    --payment-status-success-rgb: 7, 188, 76;
+    --payment-status-waiting: rgba(255, 255, 255, 0.45);
+    --payment-status-waiting-rgb: 255, 255, 255;
+    --photopicker-overlay-background: rgba(33, 44, 49, 0.8);
+    --photopicker-overlay-background-rgb: 33, 44, 49;
+    --popup-panel-background: rgba(8, 14, 18, 0.2);
+    --popup-panel-background-rgb: 8, 14, 18;
+    --primary: #A5AAAD;
+    --primary-rgb: 165, 170, 173;
+    --primary-strong: #D4D5D7;
+    --primary-strong-rgb: 212, 213, 215;
+    --primary-stronger: rgba(241, 241, 242, 0.87);
+    --primary-stronger-rgb: 241, 241, 242;
+    --primary-title: rgba(212, 213, 215, 0.97);
+    --primary-title-rgb: 212, 213, 215;
+    --product-thumb-background: #1C282F;
+    --product-thumb-background-rgb: 28, 40, 47;
+    --ptt-blue: #4FC3F7;
+    --ptt-blue-rgb: 79, 195, 247;
+    --ptt-button-cancel: rgba(229, 57, 53, 0.8);
+    --ptt-button-cancel-rgb: 229, 57, 53;
+    --ptt-button-send: rgba(9, 210, 97, 0.8);
+    --ptt-button-send-rgb: 9, 210, 97;
+    --ptt-gray: rgba(255, 255, 255, 0.4);
+    --ptt-gray-rgb: 255, 255, 255;
+    --ptt-green: #09D261;
+    --ptt-green-rgb: 9, 210, 97;
+    --ptt-message-blue: #039BE5;
+    --ptt-message-blue-rgb: 3, 155, 229;
+    --quick-action-button: rgba(255, 255, 255, 0.5);
+    --quick-action-button-rgb: 255, 255, 255;
+    --quick-action-button-background: rgba(8, 14, 18, 0.6);
+    --quick-action-button-background-rgb: 8, 14, 18;
+    --rich-text-panel-background: #1C282F;
+    --rich-text-panel-background-rgb: 28, 40, 47;
+    --secondary: rgba(255, 255, 255, 0.6);
+    --secondary-rgb: 255, 255, 255;
+    --secondary-light: rgba(255, 255, 255, 0.25);
+    --secondary-light-rgb: 255, 255, 255;
+    --secondary-lighter: rgba(255, 255, 255, 0.45);
+    --secondary-lighter-rgb: 255, 255, 255;
+    --secondary-stronger: rgba(255, 255, 255, 0.8);
+    --secondary-stronger-rgb: 255, 255, 255;
+    --shadow: #000;
+    --shadow-rgb: 0, 0, 0;
+    --shadow-light: rgba(0, 0, 0, 0.08);
+    --shadow-light-rgb: 0, 0, 0;
+    --spinner-default: #75787A;
+    --spinner-default-rgb: 117, 120, 122;
+    --spinner-highlight: #00af9c;
+    --spinner-highlight-rgb: 0, 175, 156;
+    --spinner-incoming: #646d72;
+    --spinner-incoming-rgb: 100, 109, 114;
+    --spinner-outgoing: #507e79;
+    --spinner-outgoing-rgb: 80, 126, 121;
+    --status-background: #000;
+    --status-background-rgb: 0, 0, 0;
+    --status-background-hover: #242424;
+    --status-background-hover-rgb: 36, 36, 36;
+    --status-primary: #fff;
+    --status-primary-rgb: 255, 255, 255;
+    --status-secondary: rgba(255, 255, 255, 0.55);
+    --status-secondary-rgb: 255, 255, 255;
+    --status-secondary-stronger: #b3b3b3;
+    --status-secondary-stronger-rgb: 179, 179, 179;
+    --success: #00AF9C;
+    --success-rgb: 0, 175, 156;
+    --suspicious-background: rgba(239, 105, 122, 0.8);
+    --suspicious-background-rgb: 239, 105, 122;
+    --system-message-background: #1E2A30;
+    --system-message-background-rgb: 30, 42, 48;
+    --system-message-text: rgba(255, 255, 255, 0.87);
+    --system-message-text-rgb: 255, 255, 255;
+    --teal-hover: #00b7a1;
+    --teal-hover-rgb: 0, 183, 161;
+    --teal-pale: #5fc8bc;
+    --teal-pale-rgb: 95, 200, 188;
+    --thumb-border-active: #75787A;
+    --thumb-border-active-rgb: 117, 120, 122;
+    --thumb-border-viewer-active: #75787A;
+    --thumb-border-viewer-active-rgb: 117, 120, 122;
+    --toast-background: rgba(8, 14, 18, 0.96);
+    --toast-background-rgb: 8, 14, 18;
+    --tooltip-background: rgba(89, 89, 89, 0.85);
+    --tooltip-background-rgb: 89.25, 89.25, 89.25;
+    --typing: #00AF9C;
+    --typing-rgb: 0, 175, 156;
+    --unread-background: #1C282F;
+    --unread-background-rgb: 28, 40, 47;
+    --unread-bar-background: rgba(8, 14, 18, 0.3);
+    --unread-bar-background-rgb: 8, 14, 18;
+    --unread-marker-background: #00AF9C;
+    --unread-marker-background-rgb: 0, 175, 156;
+    --unread-marker-text: #101D24;
+    --unread-marker-text-rgb: 16, 29, 36;
+    --video-player-background: #000;
+    --video-player-background-rgb: 0, 0, 0;
+    --video-primary: #fff;
+    --video-primary-rgb: 255, 255, 255;
+    --voip-accept-background: #39d575;
+    --voip-accept-background-rgb: 57, 213, 117;
+    --voip-background: #262626;
+    --voip-background-rgb: 38, 38, 38;
+    --voip-background-deep: #000;
+    --voip-background-deep-rgb: 0, 0, 0;
+    --voip-primary: #fff;
+    --voip-primary-rgb: 255, 255, 255;
+    --voip-reject-background: #e54b40;
+    --voip-reject-background-rgb: 229, 75, 64;
+    --win32-title-primary: #fff;
+    --win32-title-primary-rgb: 255, 255, 255
+}
+
+html[dir=ltr] .dark {
+    --focus-animation: rgba(0, 165, 244, 0.26);
+    --focus-animation-rgb: 0, 165, 244;
+    --focus-animation-deeper: rgba(0, 165, 244, 0.32);
+    --focus-animation-deeper-rgb: 0, 165, 244
+}
+
+html[dir=rtl] .dark {
+    --focus-animation: rgba(0, 165, 244, 0.26);
+    --focus-animation-rgb: 0, 165, 244;
+    --focus-animation-deeper: rgba(0, 165, 244, 0.32);
+    --focus-animation-deeper-rgb: 0, 165, 244
+}
+
+.dark .color-active-tab-marker {
+    color: #00AF9C
+}
+
+.dark .color-app-background-stripe {
+    color: #163636
+}
+
+.dark .color-audio-progress-incoming {
+    color: #0ca448
+}
+
+.dark .color-audio-progress-outgoing {
+    color: #648d89
+}
+
+.dark .color-audio-progress-played-incoming {
+    color: #068ed0
+}
+
+.dark .color-audio-progress-played-outgoing {
+    color: #0193d2
+}
+
+.dark .color-audio-track-incoming {
+    color: #384349
+}
+
+.dark .color-audio-track-outgoing {
+    color: #1e5953
+}
+
+.dark .color-avatar-background {
+    color: #101D24
+}
+
+.dark .color-avatar-border {
+    color: #A5AAAD
+}
+
+.dark .color-avatar-placeholder-background {
+    color: #223138
+}
+
+.dark .color-avatar-placeholder-primary {
+    color: #6d7e86
+}
+
+.dark .color-background-app {
+    color: #e0e0e0
+}
+
+.dark .color-background-default {
+    color: #101D24
+}
+
+.dark .color-background-default-active {
+    color: #212d33
+}
+
+.dark .color-background-default-hover {
+    color: #17242b
+}
+
+.dark .color-border-bubble {
+    color: rgba(255, 255, 255, 0.06)
+}
+
+.dark .color-border-default {
+    color: #303030
+}
+
+.dark .color-border-list {
+    color: #1c282f
+}
+
+.dark .color-border-panel {
+    color: #28343a
+}
+
+.dark .color-border-strong {
+    color: #364147
+}
+
+.dark .color-border-stronger {
+    color: rgba(255, 255, 255, 0.08)
+}
+
+.dark .color-butterbar-battery-background {
+    color: #e05b52
+}
+
+.dark .color-butterbar-battery-icon {
+    color: rgba(241, 241, 242, 0.8)
+}
+
+.dark .color-butterbar-battery-primary {
+    color: rgba(241, 241, 242, 0.96)
+}
+
+.dark .color-butterbar-battery-secondary {
+    color: rgba(241, 241, 242, 0.8)
+}
+
+.dark .color-butterbar-connection-background {
+    color: #FEBC2C
+}
+
+.dark .color-butterbar-connection-primary {
+    color: rgba(28, 40, 47, 0.96)
+}
+
+.dark .color-butterbar-connection-secondary {
+    color: rgba(28, 40, 47, 0.85)
+}
+
+.dark .color-butterbar-default-background {
+    color: #39c
+}
+
+.dark .color-butterbar-icon {
+    color: rgba(241, 241, 242, 0.8)
+}
+
+.dark .color-butterbar-primary {
+    color: rgba(241, 241, 242, 0.96)
+}
+
+.dark .color-butterbar-secondary {
+    color: rgba(241, 241, 242, 0.85)
+}
+
+.dark .color-butterbar-update-background {
+    color: #00AF9C
+}
+
+.dark .color-button-alternative {
+    color: #00A5F4
+}
+
+.dark .color-button-alternative-background {
+    color: #232e35
+}
+
+.dark .color-button-background-disabled {
+    color: #253137
+}
+
+.dark .color-button-bubble {
+    color: rgba(0, 175, 156, 0.7)
+}
+
+.dark .color-button-primary {
+    color: #101D24
+}
+
+.dark .color-button-primary-background {
+    color: #00AF9C
+}
+
+.dark .color-button-primary-background-hover {
+    color: #00c3ae
+}
+
+.dark .color-button-round-background {
+    color: #00AF9C
+}
+
+.dark .color-button-secondary {
+    color: #00AF9C
+}
+
+.dark .color-button-secondary-background {
+    color: rgba(0, 0, 0, 0)
+}
+
+.dark .color-button-secondary-background-hover {
+    color: rgba(255, 255, 255, 0.05)
+}
+
+.dark .color-button-secondary-hover {
+    color: #00AF9C
+}
+
+.dark .color-chat-marker {
+    color: #999
+}
+
+.dark .color-chat-marker-admin {
+    color: #00AF9C
+}
+
+.dark .color-chat-marker-admin-border {
+    color: rgba(0, 175, 156, 0.7)
+}
+
+.dark .color-chat-marker-border {
+    color: rgba(153, 153, 153, 0.7)
+}
+
+.dark .color-compose-background {
+    color: #101D24
+}
+
+.dark .color-compose-background-focused {
+    color: #0c3b52
+}
+
+.dark .color-compose-border-focused {
+    color: #0c405a
+}
+
+.dark .color-compose-panel-background {
+    color: #1C282F
+}
+
+.dark .color-conversation-panel-background {
+    color: #0b1419
+}
+
+.dark .color-conversation-panel-border {
+    color: rgba(255, 255, 255, 0.08)
+}
+
+.dark .color-danger {
+    color: #EF697A
+}
+
+.dark .color-drawer-background {
+    color: #0d171d
+}
+
+.dark .color-drawer-gallery-background {
+    color: #0d171d
+}
+
+.dark .color-drawer-header-title {
+    color: #cddad9
+}
+
+.dark .color-drawer-section-background {
+    color: #101D24
+}
+
+.dark .color-dropdown-background {
+    color: #253137
+}
+
+.dark .color-dropdown-background-hover {
+    color: #202C33
+}
+
+.dark .color-empty-state-background {
+    color: #1C282F
+}
+
+.dark .color-empty-state-icon {
+    color: #7c8387
+}
+
+.dark .color-focus {
+    color: #00A5F4
+}
+
+.dark .color-focus-lighter {
+    color: rgba(0, 165, 244, 0.12)
+}
+
+.dark .color-focus-animation {
+    color: rgba(0, 165, 244, 0.26)
+}
+
+.dark .color-focus-animation-deeper {
+    color: rgba(0, 165, 244, 0.32)
+}
+
+.dark .color-highlight {
+    color: #00AF9C
+}
+
+.dark .color-icon {
+    color: #757c80
+}
+
+.dark .color-icon-ack {
+    color: rgba(3, 155, 229, 0.8)
+}
+
+.dark .color-icon-disabled {
+    color: #3e484e
+}
+
+.dark .color-icon-disabled-darwin {
+    color: #aeb1b3
+}
+
+.dark .color-icon-disabled-win32 {
+    color: #9b9b9b
+}
+
+.dark .color-icon-fixed {
+    color: #757c80
+}
+
+.dark .color-icon-lighter {
+    color: rgba(255, 255, 255, 0.27)
+}
+
+.dark .color-icon-search-back {
+    color: #038aca
+}
+
+.dark .color-icon-strong {
+    color: #cfd2d3
+}
+
+.dark .color-incoming-background {
+    color: #222E35
+}
+
+.dark .color-incoming-background-deeper {
+    color: #1d282e
+}
+
+.dark .color-incoming-background-highlight {
+    color: #ccc
+}
+
+.dark .color-incoming-primary {
+    color: #777d81
+}
+
+.dark .color-input-border-active {
+    color: #00AF9C
+}
+
+.dark .color-input-placeholder {
+    color: #70777c
+}
+
+.dark .color-intro-background {
+    color: #222f36
+}
+
+.dark .color-intro-border {
+    color: #054740
+}
+
+.dark .color-inverse {
+    color: #F1F1F2
+}
+
+.dark .color-link {
+    color: #039BE5
+}
+
+.dark .color-live-location-footer-background {
+    color: rgba(16, 29, 36, 0.9)
+}
+
+.dark .color-live-location-glow {
+    color: rgba(37, 211, 102, 0.3)
+}
+
+.dark .color-live-location-glow-stale {
+    color: rgba(255, 0, 31, 0.3)
+}
+
+.dark .color-location-cluster-background {
+    color: #101D24
+}
+
+.dark .color-media-editor-control {
+    color: #1c313f
+}
+
+.dark .color-media-viewer-background {
+    color: rgba(16, 29, 36, 0.98)
+}
+
+.dark .color-media-viewer-button-background {
+    color: #1C282F
+}
+
+.dark .color-media-viewer-button-icon {
+    color: #F1F1F2
+}
+
+.dark .color-menu-tabs-list-active {
+    color: #00AF9C
+}
+
+.dark .color-message-background-deep {
+    color: rgba(8, 14, 18, 0.35)
+}
+
+.dark .color-message-placeholder-icon {
+    color: rgba(204, 204, 204, 0.3)
+}
+
+.dark .color-message-selection-highlight {
+    color: rgba(255, 255, 255, 0.05)
+}
+
+.dark .color-modal-backdrop {
+    color: rgba(16, 29, 36, 0.85)
+}
+
+.dark .color-modal-backdrop-solid {
+    color: #1C282F
+}
+
+.dark .color-modal-background {
+    color: #2D383E
+}
+
+.dark .color-notification-biz-background {
+    color: #1C282F
+}
+
+.dark .color-notification-biz-text {
+    color: #55FAD9
+}
+
+.dark .color-notification-e2e-background {
+    color: #1C282F
+}
+
+.dark .color-notification-e2e-icon {
+    color: #FAD964
+}
+
+.dark .color-notification-e2e-text {
+    color: #FAD964
+}
+
+.dark .color-notification-text {
+    color: rgba(255, 255, 255, 0.4)
+}
+
+.dark .color-outgoing-background {
+    color: #054740
+}
+
+.dark .color-outgoing-background-deeper {
+    color: #053f3a
+}
+
+.dark .color-outgoing-background-highlight {
+    color: #ccc
+}
+
+.dark .color-overlay {
+    color: #080E12
+}
+
+.dark .color-panel-background {
+    color: #1C282F
+}
+
+.dark .color-panel-background-active {
+    color: #1a262d
+}
+
+.dark .color-panel-background-colored {
+    color: #054740
+}
+
+.dark .color-panel-background-colored-deeper {
+    color: #063935
+}
+
+.dark .color-panel-background-deep {
+    color: #162026
+}
+
+.dark .color-panel-background-deeper {
+    color: #1a252c
+}
+
+.dark .color-panel-background-hover {
+    color: #1b272e
+}
+
+.dark .color-panel-background-lighter {
+    color: #1a252c
+}
+
+.dark .color-panel-primary {
+    color: rgba(255, 255, 255, 0.35)
+}
+
+.dark .color-payment-amount {
+    color: #00a593
+}
+
+.dark .color-payment-status-failed {
+    color: #EF697A
+}
+
+.dark .color-payment-status-processing {
+    color: rgba(255, 255, 255, 0.45)
+}
+
+.dark .color-payment-status-success {
+    color: #07BC4C
+}
+
+.dark .color-payment-status-waiting {
+    color: rgba(255, 255, 255, 0.45)
+}
+
+.dark .color-photopicker-overlay-background {
+    color: rgba(33, 44, 49, 0.8)
+}
+
+.dark .color-popup-panel-background {
+    color: rgba(8, 14, 18, 0.2)
+}
+
+.dark .color-primary {
+    color: #A5AAAD
+}
+
+.dark .color-primary-strong {
+    color: #D4D5D7
+}
+
+.dark .color-primary-stronger {
+    color: rgba(241, 241, 242, 0.87)
+}
+
+.dark .color-primary-title {
+    color: rgba(212, 213, 215, 0.97)
+}
+
+.dark .color-product-thumb-background {
+    color: #1C282F
+}
+
+.dark .color-ptt-blue {
+    color: #4FC3F7
+}
+
+.dark .color-ptt-button-cancel {
+    color: rgba(229, 57, 53, 0.8)
+}
+
+.dark .color-ptt-button-send {
+    color: rgba(9, 210, 97, 0.8)
+}
+
+.dark .color-ptt-gray {
+    color: rgba(255, 255, 255, 0.4)
+}
+
+.dark .color-ptt-green {
+    color: #09D261
+}
+
+.dark .color-ptt-message-blue {
+    color: #039BE5
+}
+
+.dark .color-quick-action-button {
+    color: rgba(255, 255, 255, 0.5)
+}
+
+.dark .color-quick-action-button-background {
+    color: rgba(8, 14, 18, 0.6)
+}
+
+.dark .color-rich-text-panel-background {
+    color: #1C282F
+}
+
+.dark .color-secondary {
+    color: rgba(255, 255, 255, 0.6)
+}
+
+.dark .color-secondary-light {
+    color: rgba(255, 255, 255, 0.25)
+}
+
+.dark .color-secondary-lighter {
+    color: rgba(255, 255, 255, 0.45)
+}
+
+.dark .color-secondary-stronger {
+    color: rgba(255, 255, 255, 0.8)
+}
+
+.dark .color-shadow {
+    color: #000
+}
+
+.dark .color-shadow-light {
+    color: rgba(0, 0, 0, 0.08)
+}
+
+.dark .color-spinner-default {
+    color: #75787A
+}
+
+.dark .color-spinner-highlight {
+    color: #00af9c
+}
+
+.dark .color-spinner-incoming {
+    color: #646d72
+}
+
+.dark .color-spinner-outgoing {
+    color: #507e79
+}
+
+.dark .color-status-background {
+    color: #000
+}
+
+.dark .color-status-background-hover {
+    color: #242424
+}
+
+.dark .color-status-primary {
+    color: #fff
+}
+
+.dark .color-status-secondary {
+    color: rgba(255, 255, 255, 0.55)
+}
+
+.dark .color-status-secondary-stronger {
+    color: #b3b3b3
+}
+
+.dark .color-success {
+    color: #00AF9C
+}
+
+.dark .color-suspicious-background {
+    color: rgba(239, 105, 122, 0.8)
+}
+
+.dark .color-system-message-background {
+    color: #1E2A30
+}
+
+.dark .color-system-message-text {
+    color: rgba(255, 255, 255, 0.87)
+}
+
+.dark .color-teal-hover {
+    color: #00b7a1
+}
+
+.dark .color-teal-pale {
+    color: #5fc8bc
+}
+
+.dark .color-thumb-border-active {
+    color: #75787A
+}
+
+.dark .color-thumb-border-viewer-active {
+    color: #75787A
+}
+
+.dark .color-toast-background {
+    color: rgba(8, 14, 18, 0.96)
+}
+
+.dark .color-tooltip-background {
+    color: rgba(89, 89, 89, 0.85)
+}
+
+.dark .color-typing {
+    color: #00AF9C
+}
+
+.dark .color-unread-background {
+    color: #1C282F
+}
+
+.dark .color-unread-bar-background {
+    color: rgba(8, 14, 18, 0.3)
+}
+
+.dark .color-unread-marker-background {
+    color: #00AF9C
+}
+
+.dark .color-unread-marker-text {
+    color: #101D24
+}
+
+.dark .color-video-player-background {
+    color: #000
+}
+
+.dark .color-video-primary {
+    color: #fff
+}
+
+.dark .color-voip-accept-background {
+    color: #39d575
+}
+
+.dark .color-voip-background {
+    color: #262626
+}
+
+.dark .color-voip-background-deep {
+    color: #000
+}
+
+.dark .color-voip-primary {
+    color: #fff
+}
+
+.dark .color-voip-reject-background {
+    color: #e54b40
+}
+
+.dark .color-win32-title-primary {
+    color: #fff
+}
+
+html[dir=ltr] .dark .color-1 {
+    color: #35cd96 !important
+}
+
+html[dir=rtl] .dark .color-1 {
+    color: #35cd96 !important
+}
+
+html[dir=ltr] .dark .bg-color-1 {
+    background-color: #35cd96 !important
+}
+
+html[dir=rtl] .dark .bg-color-1 {
+    background-color: #35cd96 !important
+}
+
+html[dir=ltr] .dark .color-2 {
+    color: #6bcbef !important
+}
+
+html[dir=rtl] .dark .color-2 {
+    color: #6bcbef !important
+}
+
+html[dir=ltr] .dark .bg-color-2 {
+    background-color: #6bcbef !important
+}
+
+html[dir=rtl] .dark .bg-color-2 {
+    background-color: #6bcbef !important
+}
+
+html[dir=ltr] .dark .color-3 {
+    color: #DB5EC2 !important
+}
+
+html[dir=rtl] .dark .color-3 {
+    color: #DB5EC2 !important
+}
+
+html[dir=ltr] .dark .bg-color-3 {
+    background-color: #DB5EC2 !important
+}
+
+html[dir=rtl] .dark .bg-color-3 {
+    background-color: #DB5EC2 !important
+}
+
+html[dir=ltr] .dark .color-4 {
+    color: #91ab01 !important
+}
+
+html[dir=rtl] .dark .color-4 {
+    color: #91ab01 !important
+}
+
+html[dir=ltr] .dark .bg-color-4 {
+    background-color: #91ab01 !important
+}
+
+html[dir=rtl] .dark .bg-color-4 {
+    background-color: #91ab01 !important
+}
+
+html[dir=ltr] .dark .color-5 {
+    color: #E69F73 !important
+}
+
+html[dir=rtl] .dark .color-5 {
+    color: #E69F73 !important
+}
+
+html[dir=ltr] .dark .bg-color-5 {
+    background-color: #E69F73 !important
+}
+
+html[dir=rtl] .dark .bg-color-5 {
+    background-color: #E69F73 !important
+}
+
+html[dir=ltr] .dark .color-6 {
+    color: #6EADF5 !important
+}
+
+html[dir=rtl] .dark .color-6 {
+    color: #6EADF5 !important
+}
+
+html[dir=ltr] .dark .bg-color-6 {
+    background-color: #6EADF5 !important
+}
+
+html[dir=rtl] .dark .bg-color-6 {
+    background-color: #6EADF5 !important
+}
+
+html[dir=ltr] .dark .color-7 {
+    color: #DFB610 !important
+}
+
+html[dir=rtl] .dark .color-7 {
+    color: #DFB610 !important
+}
+
+html[dir=ltr] .dark .bg-color-7 {
+    background-color: #DFB610 !important
+}
+
+html[dir=rtl] .dark .bg-color-7 {
+    background-color: #DFB610 !important
+}
+
+html[dir=ltr] .dark .color-8 {
+    color: #00B33E !important
+}
+
+html[dir=rtl] .dark .color-8 {
+    color: #00B33E !important
+}
+
+html[dir=ltr] .dark .bg-color-8 {
+    background-color: #00B33E !important
+}
+
+html[dir=rtl] .dark .bg-color-8 {
+    background-color: #00B33E !important
+}
+
+html[dir=ltr] .dark .color-9 {
+    color: #8b7add !important
+}
+
+html[dir=rtl] .dark .color-9 {
+    color: #8b7add !important
+}
+
+html[dir=ltr] .dark .bg-color-9 {
+    background-color: #8b7add !important
+}
+
+html[dir=rtl] .dark .bg-color-9 {
+    background-color: #8b7add !important
+}
+
+html[dir=ltr] .dark .color-10 {
+    color: #E67072 !important
+}
+
+html[dir=rtl] .dark .color-10 {
+    color: #E67072 !important
+}
+
+html[dir=ltr] .dark .bg-color-10 {
+    background-color: #E67072 !important
+}
+
+html[dir=rtl] .dark .bg-color-10 {
+    background-color: #E67072 !important
+}
+
+html[dir=ltr] .dark .color-11 {
+    color: #ba33dc !important
+}
+
+html[dir=rtl] .dark .color-11 {
+    color: #ba33dc !important
+}
+
+html[dir=ltr] .dark .bg-color-11 {
+    background-color: #ba33dc !important
+}
+
+html[dir=rtl] .dark .bg-color-11 {
+    background-color: #ba33dc !important
+}
+
+html[dir=ltr] .dark .color-12 {
+    color: #72CC92 !important
+}
+
+html[dir=rtl] .dark .color-12 {
+    color: #72CC92 !important
+}
+
+html[dir=ltr] .dark .bg-color-12 {
+    background-color: #72CC92 !important
+}
+
+html[dir=rtl] .dark .bg-color-12 {
+    background-color: #72CC92 !important
+}
+
+html[dir=ltr] .dark .color-13 {
+    color: #b04632 !important
+}
+
+html[dir=rtl] .dark .color-13 {
+    color: #b04632 !important
+}
+
+html[dir=ltr] .dark .bg-color-13 {
+    background-color: #b04632 !important
+}
+
+html[dir=rtl] .dark .bg-color-13 {
+    background-color: #b04632 !important
+}
+
+html[dir=ltr] .dark .color-14 {
+    color: #fd85d4 !important
+}
+
+html[dir=rtl] .dark .color-14 {
+    color: #fd85d4 !important
+}
+
+html[dir=ltr] .dark .bg-color-14 {
+    background-color: #fd85d4 !important
+}
+
+html[dir=rtl] .dark .bg-color-14 {
+    background-color: #fd85d4 !important
+}
+
+html[dir=ltr] .dark .color-15 {
+    color: #BD88EB !important
+}
+
+html[dir=rtl] .dark .color-15 {
+    color: #BD88EB !important
+}
+
+html[dir=ltr] .dark .bg-color-15 {
+    background-color: #BD88EB !important
+}
+
+html[dir=rtl] .dark .bg-color-15 {
+    background-color: #BD88EB !important
+}
+
+html[dir=ltr] .dark .color-16 {
+    color: #E68200 !important
+}
+
+html[dir=rtl] .dark .color-16 {
+    color: #E68200 !important
+}
+
+html[dir=ltr] .dark .bg-color-16 {
+    background-color: #E68200 !important
+}
+
+html[dir=rtl] .dark .bg-color-16 {
+    background-color: #E68200 !important
+}
+
+html[dir=ltr] .dark .color-17 {
+    color: #3bdec3 !important
+}
+
+html[dir=rtl] .dark .color-17 {
+    color: #3bdec3 !important
+}
+
+html[dir=ltr] .dark .bg-color-17 {
+    background-color: #3bdec3 !important
+}
+
+html[dir=rtl] .dark .bg-color-17 {
+    background-color: #3bdec3 !important
+}
+
+html[dir=ltr] .dark .color-18 {
+    color: #C69478 !important
+}
+
+html[dir=rtl] .dark .color-18 {
+    color: #C69478 !important
+}
+
+html[dir=ltr] .dark .bg-color-18 {
+    background-color: #C69478 !important
+}
+
+html[dir=rtl] .dark .bg-color-18 {
+    background-color: #C69478 !important
+}
+
+html[dir=ltr] .dark .color-19 {
+    color: #E36C91 !important
+}
+
+html[dir=rtl] .dark .color-19 {
+    color: #E36C91 !important
+}
+
+html[dir=ltr] .dark .bg-color-19 {
+    background-color: #E36C91 !important
+}
+
+html[dir=rtl] .dark .bg-color-19 {
+    background-color: #E36C91 !important
+}
+
+html[dir=ltr] .dark .color-20 {
+    color: #E05E5E !important
+}
+
+html[dir=rtl] .dark .color-20 {
+    color: #E05E5E !important
+}
+
+html[dir=ltr] .dark .bg-color-20 {
+    background-color: #E05E5E !important
+}
+
+html[dir=rtl] .dark .bg-color-20 {
+    background-color: #E05E5E !important
+}
