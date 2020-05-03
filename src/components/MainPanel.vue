@@ -1,6 +1,6 @@
 <template>
     <div class="_1-iDe Wu52Z">
-        <div v-if="!activeChat" class="_2zynu">
+        <div v-if="!activeChat.chatID" class="_2zynu">
             <div class="_2IVU3">
                 <div data-asset-intro-image="true" class="_2LKlu" style="transform: scale(1); opacity: 1;"></div>
                 <div class="_3MiDj" style="opacity: 1; transform: translateY(0px);"><h1 class="P8cO8">Keep your phone
@@ -23,7 +23,7 @@
             <header class="_2y17h">
                 <div class="_3mKlI" role="button">
                     <div class="_1WliW" style="height: 40px; width: 40px;"><img
-                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTTca7of_H4vKsIVFDLlwiSl_3CLN-64iJ9Wx_7hNrvS6umXQ8H&usqp=CAU"
+                            :src="activeChat.photo"
                             draggable="false" class="Qgzj8 gqwaM _3FXB1" style="visibility: visible;">
                         <div class="_3ZW2E">
                             <IconDefaultUser/>
@@ -33,7 +33,7 @@
                 <div class="_5SiUq" role="button">
                     <div class="_16vzP">
                         <div class="_3XrHh"><span dir="auto" title="+62 853-5341-1360"
-                                                  class="_1wjpf _3NFp9 _3FXB1">+62 853-5341-1360</span>
+                                                  class="_1wjpf _3NFp9 _3FXB1">{{activeChat.name}}</span>
                         </div>
                     </div>
                     <div class="_3sgkv Gd51Q"><span title="terakhir dilihat kemarin pukul 07.45"

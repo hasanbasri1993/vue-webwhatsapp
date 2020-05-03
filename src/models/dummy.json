@@ -1,0 +1,123 @@
+{
+  "listChats": [
+    {
+      "chatID": 1,
+      "name": "Leanne Graham",
+      "photo": "https://picsum.photos/id/1/200/200",
+      "lastChatT": "04:12",
+      "lastChatM": "Multi-layered client-server neural-net"
+    },
+    {
+      "chatID": 2,
+      "name": "Ervin Howell",
+      "photo": "https://picsum.photos/id/2/200/200",
+      "lastChatT": "11:10",
+      "lastChatM": "Proactive didactic contingency"
+    },
+    {
+      "chatID": 3,
+      "name": "Clementine Bauch",
+      "photo": "https://picsum.photos/id/3/200/200",
+      "lastChatT": "04:12",
+      "lastChatM": "Sebelum memulai membangun sistem sendiri untuk data yang dibutuhkan oleh aplikasi kita, pertama coba dulu cari apakah"
+    },
+    {
+      "chatID": 4,
+      "name": "Patricia Lebsack",
+      "photo": "https://picsum.photos/id/4/200/200",
+      "lastChatT": "04:12",
+      "lastChatM": "Multi-tiered zero tolerance productivity"
+    },
+    {
+      "chatID": 5,
+      "name": "Chelsey Dietrich",
+      "photo": "https://picsum.photos/id/5/200/200",
+      "lastChatT": "07:12",
+      "lastChatM": "lUser-centric fault-tolerant solution"
+    },
+    {
+      "chatID": 6,
+      "name": "Mrs. Dennis Schulist",
+      "photo": "https://picsum.photos/id/6/200/200",
+      "lastChatT": "07:12",
+      "lastChatM": "Synchronised bottom-line interface"
+    },
+    {
+      "chatID": 7,
+      "name": "Leanne Graham",
+      "photo": "https://picsum.photos/id/7/200/200",
+      "lastChatT": "04:12",
+      "lastChatM": "Multi-layered client-server neural-net"
+    },
+    {
+      "chatID": 8,
+      "name": "Ervin Howell",
+      "photo": "https://picsum.photos/id/8/200/200",
+      "lastChatT": "11:10",
+      "lastChatM": "Proactive didactic contingency"
+    },
+    {
+      "chatID": 9,
+      "name": "Clementine Bauch",
+      "photo": "https://picsum.photos/id/9/200/200",
+      "lastChatT": "04:12",
+      "lastChatM": "Sebelum memulai membangun sistem sendiri untuk data yang dibutuhkan oleh aplikasi kita, pertama coba dulu cari apakah"
+    },
+    {
+      "chatID": 10,
+      "name": "Patricia Lebsack",
+      "photo": "https://picsum.photos/id/10/200/200",
+      "lastChatT": "04:12",
+      "lastChatM": "Multi-tiered zero tolerance productivity"
+    },
+    {
+      "chatID": 11,
+      "name": "Chelsey Dietrich",
+      "photo": "https://picsum.photos/id/11/200/200",
+      "lastChatT": "07:12",
+      "lastChatM": "lUser-centric fault-tolerant solution"
+    },
+    {
+      "chatID": 12,
+      "name": "Mrs. Dennis Schulist",
+      "photo": "https://picsum.photos/id/12/200/200",
+      "lastChatT": "07:12",
+      "lastChatM": "Synchronised bottom-line interface"
+    },
+    {
+      "chatID": 13,
+      "name": "Chelsey Dietrich",
+      "photo": "https://picsum.photos/id/13/200/200",
+      "lastChatT": "07:12",
+      "lastChatM": "lUser-centric fault-tolerant solution"
+    },
+    {
+      "chatID": 14,
+      "name": "Mrs. Dennis Schulist",
+      "photo": "https://picsum.photos/id/14/200/200",
+      "lastChatT": "07:12",
+      "lastChatM": "Synchronised bottom-line interface"
+    },
+    {
+      "chatID": 15,
+      "name": "Mrs. Dennis Schulist",
+      "photo": "https://picsum.photos/id/15/200/200",
+      "lastChatT": "07:12",
+      "lastChatM": "Synchronised bottom-line interface"
+    },
+    {
+      "chatID": 16,
+      "name": "Chelsey Dietrich",
+      "photo": "https://picsum.photos/id/45/200/200",
+      "lastChatT": "07:12",
+      "lastChatM": "Synchronised bottom-line interface"
+    },
+    {
+      "chatID": 17,
+      "name": "Mrs. Dennis Schulist",
+      "photo": "https://picsum.photos/id/65/200/200",
+      "lastChatT": "07:12",
+      "lastChatM": "Synchronised bottom-line interface"
+    }
+  ]
+}
